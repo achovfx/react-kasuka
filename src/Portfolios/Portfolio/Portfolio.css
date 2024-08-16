@@ -1,0 +1,76 @@
+.portfolio-item {
+    /* width: 33%; */
+    display: inline-block;
+    height: fit-content;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #cccccc3a;
+    transition: .3s;
+}
+
+.portfolio-item:hover {
+    background-color: #000;
+    transition: .3s;
+}
+
+.portfolio-item:hover>.bg img {
+    opacity: .4;
+    scale: 1.3;
+    transition: .3s;
+}
+
+.portfolio-item:hover>.details {
+    opacity: 1;
+    transition: .3s;
+}
+
+.portfolio-item .bg img {
+    width: 100%;
+    scale: 1.1;
+    transition: .3s;
+}
+
+.portfolio-item .details {
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    transition: .3s;
+}
+
+.portfolio-item .details h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.portfolio-item .details p {
+    font-size: 14px;
+    text-align: justify;
+    color: rgba(255, 255, 255, .7);
+}
+
+.portfolio-item .details .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.portfolio-item .details .btns div {
+    width: 28px;
+    height: 28px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.portfolio-item .details .btns div:hover {
+    color: #ffc451;
+    transition: .3s;
+}

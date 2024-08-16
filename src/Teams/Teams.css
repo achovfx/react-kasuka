@@ -1,0 +1,42 @@
+.teams-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px;
+    gap: 40px;
+    /* background-color: red; */
+}
+
+.teams-container .title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.teams-container .title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1px;
+    columns: #aaa;
+}
+
+.teams-container .title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background-color: #ffde9c;
+    margin: 4px 10px;
+}
+
+.teams-container .title p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #151515;
+    text-align: justify;
+}
+
+.teams-container .teams {
+    display: flex;
+    gap: 25px;
+}

@@ -1,0 +1,31 @@
+.goTop-Btn {
+    position: fixed;
+    bottom: -15px;
+    right: -15px;
+    background-color: #ffc451;
+    z-index: 996;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .3s;
+}
+
+.goTop-Btn button {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+div.showGoTop {
+    bottom: 15px !important;
+    right: 15px !important;
+    opacity: 1 !important;
+    transition: .3s;
+}

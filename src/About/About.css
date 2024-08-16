@@ -1,0 +1,134 @@
+.about-container {
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 50px 74px;
+}
+
+.about-container .img img {
+    width: 637px;
+}
+
+.about-container .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    max-width: 40%;
+}
+
+.about-container .aboutTitle {
+    width: 100%;
+}
+
+.about-container .aboutTitle h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.about-container .desc {
+    max-width: 95%;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+.about-container .goals {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+}
+
+.about-container .goals .goal {
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    max-width: 95%;
+}
+
+div.goal .icon svg {
+    width: 20px;
+    height: 20px;
+    color: #695015;
+}
+
+
+@media (max-width: 1200px) {
+    .about-container .img img {
+        width: 427px;
+    }
+
+    .about-container .details {
+        gap: 10px;
+    }
+
+    .about-container .aboutTitle h3 {
+        font-size: 24px;
+    }
+
+    .about-container .desc {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 18px;
+    }
+
+    .about-container .goals .goal {
+        gap: 10px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    .about-container .aboutTitle h3 {
+        font-size: 20px;
+    }
+
+    .about-container .desc {
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        padding-left: 0;
+    }
+
+    .about-container .goals .goal {
+        gap: 10px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 728px) {
+    .about-container .img img {
+        width: 300px;
+    }
+
+    .about-container {
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+    }
+
+    .about-container .desc {
+        display: none;
+    }
+}

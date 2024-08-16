@@ -1,0 +1,47 @@
+.cta-container {
+    width: 100%;
+    height: 278px;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("D:\js\React\reactapp - Kasuka\public\img\cta-bg.jpg") fixed center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cta-container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.cta-container .text h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.cta-container .btn a {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 4px;
+    transition: .3s;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-container .btn a:hover {
+    border: 2px solid #ffc451;
+    background-color: #ffc451;
+    color: #000;
+    transition: .3s;
+}

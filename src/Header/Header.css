@@ -1,0 +1,104 @@
+.header-container {
+    color: #fff;
+    background-image: url("D:\js\React\reactapp - Kasuka\public\img\hero-bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.header-container .headerMiddle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 74px; */
+    gap: 80px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-container .headerMiddle .headerTitle {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-container .headerMiddle .headerTitle h1 {
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.header-container .headerMiddle .headerTitle h1 p {
+    color: #ffc451;
+    font-family: sans-serif;
+}
+
+.header-container .headerMiddle .headerTitle .desc {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-container .headerMiddle .headerBoxs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 900px) {
+    .header-container .headerMiddle .headerTitle h1 {
+        font-size: 30px;
+    }
+
+    .header-container .headerMiddle .headerTitle .desc {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 728px) {
+    .header-container .headerMiddle .headerTitle {
+        margin-top: 100px;
+        gap: 5px;
+    }
+
+    .header-container .headerMiddle .headerTitle h1 {
+        font-size: 20px;
+    }
+
+    .header-container .headerMiddle .headerTitle h1 p {
+        font-size: 24px;
+        display: inline-block;
+    }
+
+    .header-container .headerMiddle .headerTitle .desc {
+        font-size: 12px;
+    }
+
+    .header-container .headerMiddle .headerBoxs {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-container .headerMiddle {
+        gap: 20px;
+    }
+
+    .header-container {
+        height: 110vh;
+    }
+}

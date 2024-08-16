@@ -1,0 +1,152 @@
+.message-container {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.message-container .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    width: 20%;
+}
+
+.message-container .details .detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.message-container .details .detail .icon {
+    width: 40px;
+    height: 40px;
+    background-color: #ffc451;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container .details .detail .icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.message-container .details .detail .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.message-container .details .detail .title h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.message-container .details .detail .title p {
+    font-size: 14px;
+}
+
+.message-container .inputs {
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.message-container .inputs form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.message-container .inputs form .inputName {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.message-container .inputs form .inputName input {
+    width: 45%;
+    padding: 10px;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #212529;
+    border: 1px solid #ced4da;
+    outline: none;
+    transition: .3s;
+}
+
+.message-container .inputs form .inputName input:focus {
+    border: 1px solid #ffc451;
+    transition: .3s;
+}
+
+.message-container .inputs form .inputTitle {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.message-container .inputs form .inputTitle input {
+    width: 95%;
+    height: 44px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #212529;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    outline: none;
+    transition: .3s;
+}
+
+.message-container .inputs form .inputTitle input:focus {
+    border: 1px solid #ffc451;
+    transition: .3s;
+}
+
+.message-container .inputs form textarea {
+    width: 95%;
+    height: 128px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #212529;
+    border: 1px solid #ced4da;
+    outline: none;
+    resize: vertical;
+    transition: .3s;
+}
+
+.message-container .inputs form textarea:focus {
+    border: 1px solid #ffc451;
+    transition: .3s;
+}
+
+.message-container .inputs form input[type="submit"] {
+    width: 10%;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ffc451;
+    transition: .3s;
+}
+
+.message-container .inputs form input[type="submit"]:hover {
+    background-color: #ffcc67;
+    transition: .3s;
+}

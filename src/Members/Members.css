@@ -1,0 +1,53 @@
+.members-container {
+    margin-top: 20px;
+    background-image: url("D:\js\React\reactapp - Kasuka\public\img\members-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: fit-content;
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.members-container .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.members-container .profile img {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #ffffff80;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+.members-container .profile p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.members-container .desc {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.members-container .desc p {
+    text-align: justify;
+}
+
+.members-container .desc p::after,
+.members-container .desc p::before {
+    content: "\201D";
+    font-size: 32px;
+    padding: 10px;
+    color: #ffffffb0;
+}

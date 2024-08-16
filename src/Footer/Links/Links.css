@@ -1,0 +1,49 @@
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.links-container .title h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.links-container .links ul {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.links-container .links ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.links-container .links ul li:hover>a {
+    transform: translateX(-10px);
+    color: #ffc451;
+    transition: .3s;
+}
+
+
+.links-container .links ul li svg {
+    width: 18px;
+    height: 18px;
+    color: #ffc451;
+}
+
+.links-container .links ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    transition: .3s;
+}

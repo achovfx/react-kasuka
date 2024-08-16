@@ -1,0 +1,27 @@
+.social {
+    background-color: #292929;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social svg {
+    width: 20px;
+    height: 20px;
+    transition: .3s;
+}
+
+.social:hover {
+    background-color: #ffc451;
+    transition: .3s;
+}
+
+.social:hover>svg {
+    color: #000;
+    transition: .3s;
+}

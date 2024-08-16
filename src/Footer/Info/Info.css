@@ -1,0 +1,41 @@
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+
+.info-container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.info-container .logo span {
+    font-family: sans-serif;
+}
+
+.info-container .logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.info-container .details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sociasl {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

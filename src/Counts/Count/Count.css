@@ -1,0 +1,28 @@
+.count-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.count-item .title {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 10px;
+}
+
+.count-item .title h4 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #151515;
+}
+
+.count-item .title .icon {
+    width: 42px;
+    height: 42px;
+    color: #ffc451;
+}
+
+.count-item .desc {
+    padding-right: 20px;
+}
